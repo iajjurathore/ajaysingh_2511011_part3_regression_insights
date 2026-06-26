@@ -8,9 +8,9 @@
 
 ### Model 1 — Monthly Sales vs Marketing Spend
 
-```
+
 monthly_sales = 560,777.35 + 2.13 × marketing_spend
-```
+
 
 **R² = 0.1672** | **P-value = 2.48E-14**  Significant
 
@@ -22,9 +22,9 @@ monthly_sales = 560,777.35 + 2.13 × marketing_spend
 
 ### Model 2 — Monthly Sales vs Footfall
 
-```
+
 monthly_sales = 446,410.58 + 35.68 × footfall
-```
+
 
 **R² = 0.7363** | **P-value = 4.75E-94**  Significant
 
@@ -39,7 +39,7 @@ monthly_sales = 446,410.58 + 35.68 × footfall
 
 ## 2. Multiple Regression Equation
 
-```
+
 monthly_sales = 146,249.80
               + 33.68 × footfall
               + 1.18 × marketing_spend
@@ -47,7 +47,7 @@ monthly_sales = 146,249.80
               − 39,654.57 × Residential_dummy
               − 22,957.90 × HighStreet_dummy
               − 11,306.63 × Mall_dummy
-```
+
 
 **R² = 0.8199** | **Adjusted R² = 0.8165** | **Observations = 320**
 **F-significance = 2.54E-113**  Highly Significant
@@ -106,13 +106,13 @@ The Residential_dummy coefficient of −39,654.57 means:
 
 ** Multiple Regression Model (Model 3) is the Final Selected Model**
 
-```
+
 monthly_sales = 146,249.80 + 33.68×footfall + 1.18×marketing_spend
               + 3,062.93×inventory_availability_pct
               − 39,654.57×Residential_dummy
               − 22,957.90×HighStreet_dummy
               − 11,306.63×Mall_dummy
-```
+
 
 ---
 
