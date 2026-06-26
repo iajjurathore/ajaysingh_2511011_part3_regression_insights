@@ -1,5 +1,5 @@
 
-## 📊 Executive Summary
+##  Executive Summary
 Based on a rigorous multiple linear regression analysis of 320 store observations (R^2 = 0.8199, \text{Adjusted } R^2 = 0.8165), our predictive model accounts for **82% of the variance** in monthly sales. This report outlines actionable operational strategies and risk mitigations for leadership based on the empirical coefficients and statistical realities discovered across the retail footprint.
 
 
